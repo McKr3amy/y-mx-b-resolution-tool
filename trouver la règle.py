@@ -40,3 +40,4 @@ if information_sur_règle == "2":
         m = str(m)
         b = str(b)
         print("ta règle est de y = "+m+"x")
+        print
