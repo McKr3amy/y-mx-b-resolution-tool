@@ -41,4 +41,22 @@ if information_sur_règle == "2":
         b = str(b)
         print("ta règle est de y = "+m+"x")
 if information_sur_règle == "3":
-    
+    deuxieme_pointx = int(input("Quel est la valeur de x du deuxieme point?: "))
+    deuxieme_pointy = int(input("Quel est la valeur de y du deuxieme point?: "))
+    b = int(input("Quel est la valeur de b?: "))
+    premier_pointy = b
+    premier_pointx = 0
+    mx = deuxieme_pointx - premier_pointx
+    my = deuxieme_pointy - premier_pointy
+    m = my / mx
+    mixmx = premier_pointx * m
+    if mixmx > premier_pointy or premier_pointy > mixmx:
+        b = premier_pointy - mixmx
+        m = str(m)
+        b = str(b)
+        print("ta règle est de y = "+m+"x"+" + "+b)
+    if premier_pointy == mixmx:
+        b = premier_pointy - mixmx
+        m = str(m)
+        b = str(b)
+        print("ta règle est de y = "+m+"x")
