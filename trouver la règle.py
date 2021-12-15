@@ -4,7 +4,6 @@ print("Ta quel information sur ta règle?")
 print("1. Deux points sur le plan cartesien")
 print("2. Un point sur le point cartesien et m")
 print("3. Un point sur le point cartesien et b")
-print("4. les variables m et b")
 information_sur_règle = input("?: ")
 if information_sur_règle == "1":
     premier_pointx = int(input("Quel est la valeur de x du premier point?: "))
@@ -60,4 +59,4 @@ if information_sur_règle == "3":
         m = str(m)
         b = str(b)
         print("ta règle est de y = "+m+"x")
-        print ("hello")
+print("make sur to go on"+" https://www.desmos.com/calculator"+" to check out the fonction!")
